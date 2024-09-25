@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+    <style>
+        *{
+            background-color: crimson;
+        }
+        .box{
+            width: 100px;
+            height:100px;
+            background-color: black;
+            border-radius: 100px;
+            animation: anime 10s ease infinite;
+        }
+        @keyframes anime {
+            0%{
+                transform: scale(1);
+                background-color: rgb(14, 209, 131);
+            }
+            50%{
+                transform: scale(18);
+                background-color: rgb(244, 5, 228);
+            }
+            100%{
+                transform: scale(1);
+                background-color: rgb(20, 206, 244);
+            }
+        }
+        .h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <div class="box"></div>
+</body>
+</html>
